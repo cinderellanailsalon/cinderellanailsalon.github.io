@@ -27,7 +27,6 @@ p {
 }
 
 hr {
-    max-width: 900px;
     border-color: #999999;
     color: #919191;
 }
@@ -139,7 +138,8 @@ ul {
     margin-left: 16px;
     font-size: 12px;
     font-style: italic;
-
+    display: block;
+    max-width: 400px;
 }
 
 .semi-transparent {
