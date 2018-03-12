@@ -155,7 +155,7 @@ ul {
 
 .welcome-text {
     margin: auto;
-    top: 48px;
+    top: 36px;
     text-align: center;
     opacity: 1.0;
     position: relative;
@@ -170,7 +170,7 @@ ul {
 .welcome-text-sub {
     margin: auto;
     position: relative;
-    top: 60px;
+    top: 40px;
     opacity: 1.0;
     padding: 10px;
     font-size: 14px;
