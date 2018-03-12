@@ -26,7 +26,8 @@
     <![endif]-->
 </head>
 
-<body>
+<body style="font-family: Raleway;">
+    <div class="container" id="web-content">
     <!-- Banner -->
     <div class="brand" style="font-family: 'Parisienne', cursive; line-height: 1; font-size: 120px; color: #3A3939;">Cinderella</div>
     <div class="brand" style="text-transform: uppercase;
@@ -36,69 +37,43 @@
         font-size: 10px;
         line-height: 10px;
         color: #919191;
-        letter-spacing: 8px;">A SALON FOR NATURAL NAILS
-        <hr style="border-top: 1px solid #ccc;" width="80%">
+        letter-spacing: 8px;">NAIL SALON
     </div>
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
+            <hr style="border-top: 1px solid #ccc;" width="80%">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse1" data-target="#bs-example-navbar-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Cinderella</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
+            <div class="collapse1 navbar" id="bs-example-navbar-1">
+                <ul class="nav navbar-nav" style="white-space: nowrap;">
+                    <li style="display: inline-block;">
                         <a href="index.html">Home</a>
                     </li>
-                    <li>
-                        <a href="index.html">About</a>
+                    <li style="display: inline-block;">
+                        <a href="menu.html">Menu</a>
                     </li>
-                    <li>
+                    <li style="display: inline-block;">
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+            <!-- /.navbar -->
+            <hr style="border-top: 1px solid #ccc;" width="80%">
+
         </div>
         <!-- /.container -->
     </nav>
 
     <div class="container">
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">
-                        <strong>MENU</strong>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-md-6">
-                    HANDS
-                    <ul>
-                        <li>Gel Polish $35</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    TOES
-                    <ul>
-
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
@@ -108,35 +83,34 @@
                     </h2>
                     <hr>
                 </div>
-                <div class="col-md-6">
-                    HANDS/MANICURE
+                <div class="col-md-6" style="text-align: center;">
+                    HAND TREATMENTS/MANICURES
                     <ul>
-                        <li>Polish Change $10</li>
-                            - Remove polish, Trim/Shape, Oil Buff, Polish
-                        <li>Regular Manicure $20</li>
-                            - 
-                        <li>Spa Manicure $35</li>
-                            -
+                        <li>Polish Change 10.00</li>
+                            <span class="menu-desc">includes nail trim/shaping & buff</span>
+                        <li>Regular Manicure 20.00</li>
+                            <span class="menu-desc">includes complete cuticle trim & hand massage with warm towel</span>
+                        <li>Almond Spa Manicure 35.00 </li>
+                            <span class="menu-desc">includes almond scrub/masque & hand massage with warm towel</span>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    TOES/PEDICURE
+                <div class="col-md-6" style="text-align: center;">
+                    FOOT TREATMENTS/PEDICURES
                     <ul>
-                        <li>Polish Change $13</li>
-                            - Remove polish, Trim/Shape, Oil Buff, Polish
-                        <li>Express Pedicure $28</li>
-                            - 
-                        <li>Regular Pedicure $38</li>
-                            -
-                        <li>Spa Pedicure $55</li>
-                            -
+                        <li>Polish change 15.00 </li>
+                            <span class="menu-desc">includes toenail trim/shaping & buff</span>
+                        <li>Express Pedicure 29.00 </li>
+                            <span class="menu-desc">includes toenail trim/shaping, cuticle trim, & foot massage</span>
+                        <li>Regular Pedicure 40.00 </li>
+                            <span class="menu-desc">includes toenail trim/shaping, cuticle trim, pumice exfoliation, & foot massage with warm towel</span>
+                        <li>Spa Pedicure 55.00 </li>
+                            <span class="menu-desc">includes toenail trim/shaping, cuticle trim, lower leg exfoliation with salt, almond masque, foot massage with warm towel, & polish</span>
                     </ul>
                 </div>
                 <div class="clearfix"></div>
             </div>
-        </div>
 
-        <div class="box">
+            <div class="box">
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">
@@ -144,31 +118,32 @@
                     </h2>
                     <hr>
                 </div>
-                <div class="col-md-6">
-                    HANDS/MANICURE
+                <div class="col-md-6" style="text-align: center;">
+                    HAND TREATMENTS/MANICURES
                     <ul>
-                        <li>Manicure $17</li>
-                            - Remove polish, Trim/Shape, Oil Buff, Polish
-                        <li>Spa Manicure $30</li>
-                            -
+                        <li>Manicure $18.00 </li>
+                            <span class="menu-desc">includes complete cuticle trim, oil buff, & hand massage with warm towel</span>
+                        <li>Regular Manicure 20.00</li>
+                            <span class="menu-desc">includes complete cuticle trim & hand massage with warm towel</span>                        
+                        <li>Almond Spa Manicure $30.00 </li>
+                            <span class="menu-desc">includes almond scrub/masque & hand massage with warm towel</span>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    TOES/PEDICURE
+                <div class="col-md-6" style="text-align: center;">
+                    FOOT TREATMENTS/PEDICURES
                     <ul>
-                        <li>Express Pedicure $25</li>
-                            - 
-                        <li>Regular Pedicure $35</li>
-                            -
-                        <li>Spa Pedicure $50</li>
-                            -
+                        <li>Express Pedicure $27.00 </li>
+                            <span class="menu-desc">includes toenail trim/shaping, cuticle trim, foot massage, & buff</span>
+                        <li>Regular Pedicure $38.00 </li>
+                            <span class="menu-desc">includes toenail trim/shaping, cuticle trim, pumice exfoliation, foot massage with warm towel, & buff</span>
+                        <li>Spa Pedicure $52.00 </li>
+                            <span class="menu-desc">includes toenail trim/shaping, cuticle trim, lower leg exfoliation with salt, almond masque, foot massage with warm towel, almond lotion, & buff</span>
                     </ul>
                 </div>
                 <div class="clearfix"></div>
             </div>
-        </div>
 
-        <div class="box">
+            <div class="box">
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">
@@ -176,25 +151,24 @@
                     </h2>
                     <hr>
                 </div>
-                <div class="col-md-6">
-                    HANDS/MANICURE
+                <div class="col-md-6" style="text-align: center;">
+                    HAND TREATMENTS/MANICURES
                     <ul>
-                        <li>Polish Hands $8</li>
-                            -
-                        <li>Kid's Manicure $12</li>
-                            - Remove polish, Trim/Shape, Oil Buff, Polish
+                        <li>Polish Change $8.00 </li>
+                            <span class="menu-desc">includes nail trim/shaping</span>
+                        <li>Manicure $12.00 </li>
+                            <span class="menu-desc">includes cuticle care & hand massage</span>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    TOES/PEDICURE
+                <div class="col-md-6" style="text-align: center;">
+                    FOOT TREATMENTS/PEDICURES
                     <ul>
-                        <li>Polish Toes $10</li>
-                            - 
-                        <li>Kid's Pedicure $20</li>
-                            -
+                        <li>Polish Change $10.00 </li>
+                            <span class="menu-desc">includes toenail trim/shaping</span>
+                        <li>Pedicure $20.00 </li>
+                            <span class="menu-desc">includes toenail trim/shaping, cuticle care, foot massage, & polish</span>
                     </ul>
                 </div>
-
                 <div class="clearfix"></div>
             </div>
         </div>
