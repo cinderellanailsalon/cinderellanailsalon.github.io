@@ -111,13 +111,12 @@ ul {
     display: block;
     margin: auto;
     width: 100%;
-    max-width: 925px;
     padding-bottom: 75%;
-    padding: 5px;
+    padding: 0px;
     z-index: 3;
     position: relative;
-    min-width: 720px;
-    max-width: 925px;
+    min-width: 880px;
+    max-width: 880px;
     min-height: 500px;
     max-height: 500px;
 }
@@ -129,7 +128,7 @@ ul {
 .main-text {
     margin: auto;
     right: -5px;
-    width: 40%;
+    width: 30%;
     height: 100%;
     position: absolute;
 }
