@@ -190,7 +190,7 @@ footer p {
     padding: 50px 0;
 }
 
-@media screen and (min-width:64px) {
+@media screen and (min-width:500px) {
     .brand {
         display: inherit;
         margin: 0;
