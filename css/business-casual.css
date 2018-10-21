@@ -145,6 +145,7 @@ ul {
     z-index: 5;
     opacity: 0.9;
     height: 100%;
+    font-family: 'Trebuchet MS';
     box-sizing: content-box;
     background-color: rgba(0,0,0,.70);
     color: #7c7b7b;
@@ -173,11 +174,14 @@ ul {
     opacity: 1.0;
     padding: 10px;
     font-size: 14px;
-    text-transform: uppercase;
     text-align: center;
     line-height: 16px;
     color: white;
     letter-spacing: 0px;
+}
+
+#link {
+    color: white;
 }
 
 .announcement {
